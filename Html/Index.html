@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libreria El Sol</title>
-    <link rel="shortcut icon" href="Image/logo/DALL·E 2023-05-02 20.58.47 - a logo of a sun animated with glasses that is very nice.png">
+    <link rel="shortcut icon" href="../Image/logo/DALL·E 2023-05-02 20.58.47 - a logo of a sun animated with glasses that is very nice.png">
     <link rel="stylesheet" href="../Css/stylesheet.Css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,14 @@
     <header>
         <nav> 
             <img src="../Image/logo/logo libreria.png" class="home-icon" alt="home icon">
-            <input type="text" id="search">
+
+            <div class="busqueda">
+                <input type="text" id="search" placeholder="Buscar">
+                <img src="../Image/logo/lupa de busqueda.png" class="lupa" alt="Lupa de Busqueda">
+            </div>
             <ul>
                 <li><a href="utiles.html">Utiles</a></li>
                 <li><a href="papeleria.html">Papeleria</a></li>
-                <li><a href="ofertas.html">Ofertas</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
             </ul> 
             
@@ -69,8 +72,8 @@
                 </div>
                 <div class="buttons">
                     <a href="utiles.html"><button>VER CATALOGO</button></a>
-                    <button>VER UBICACION</button>
-                    <button>NOSOTROS</button>
+                    <a href="https://maps.app.goo.gl/K6NTiFmAF7g9HP7R9"><button>VER UBICACION</button></a>
+                    <a href="../Html/nosotros.html"><button>NOSOTROS</button></a>
                 </div>
             </div>
 
@@ -78,9 +81,15 @@
 
         </div>
         <div class="local">
-            <h2>Este es nuestro local</h2>
+            <span></span>
+            <span></span>
             <img src="../Image/Libreria.jpg" alt="imagen del local">
-            <p>Somos un local de barrio que empezó desde abajo y ahora contamos con la confianza de todos nuestros vecinos</p>
+            <h2>Este es nuestro local</h2>
+            <span></span>
+            <p>
+                Somos un local de barrio que empezó desde abajo y ahora contamos con la
+                confianza de todos nuestros vecinos
+            </p>
         </div>
         <span></span>
         <section class="ofertas">
